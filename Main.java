@@ -4,10 +4,10 @@ class Main {
   public static void main(String[] args)
   {
     Random gen = new Random();
-    double a = gen.nextInt(9);
-    double b = gen.nextInt(9);
-    double c = gen.nextInt(9);
-    double d = gen.nextInt(9);
-    double e = gen.nextInt(9);
+    int a = gen.nextInt(9);
+    int b = gen.nextInt(9);
+    int c = gen.nextInt(9);
+    int d = gen.nextInt(9);
+    int e = gen.nextInt(9);
   }
 }
