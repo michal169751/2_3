@@ -3,11 +3,11 @@ import java.lang.Math;
 class Main {
   public static void main(String[] args)
   {
-    Random generator = new Random();
-    double a = generator.nextInt(9);
-    double b = generator.nextInt(9);
-    double c = generator.nextInt(9);
-    double d = generator.nextInt(9);
-    double e = generator.nextInt(9);
+    Random gen = new Random();
+    double a = gen.nextInt(9);
+    double b = gen.nextInt(9);
+    double c = gen.nextInt(9);
+    double d = gen.nextInt(9);
+    double e = gen.nextInt(9);
   }
 }
